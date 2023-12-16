@@ -1,0 +1,126 @@
+
+
+body {
+    margin: 7% 0%;
+    color: #EEEBDD;
+  
+    background-color: #000000;
+    font-family: 'DM Serif Display', serif;
+}
+
+
+
+.logo-h {
+    padding: 2% 7%;
+color: yellowgreen;
+font-size: 3rem;
+font-family: 'Josefin Sans', sans-serif;
+
+}
+
+h1 {
+
+    font-size: 4rem;
+}
+
+#head {
+    padding: 0 7%;
+    text-align: left;
+    line-height: 1;
+    
+}
+
+#rows {
+    padding: 7% 4%;
+}
+
+p {
+    width:500px;
+    margin-top: 5%;
+}
+
+.first-float {
+    position: relative;
+    top: -20px;
+}
+.first-row {
+    display: inline-block;
+} 
+.second-float {
+    margin-left: auto;
+}
+.second-row {
+    display: inline-block;
+    margin-right: auto;
+   
+}
+.image {
+
+    width: 150px; height: 150px; float: left; margin-right: 2%;
+}
+
+
+.h-top {
+    margin-left: 40%;
+}
+
+
+
+.background {
+    position: absolute;
+    z-index: -1;
+
+}
+
+.back {
+    width: 100%;
+}
+
+@media (max-width:500px) {
+
+
+    .logo-h {
+        margin-top: 15%;
+    font-size: 3rem;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    }
+
+    h1 {
+
+        font-size: 6rem;
+    }
+    .h-top {
+        font-size: 2rem;
+        text-align: center;
+        margin: 0 ;
+    }
+    p {
+        width: auto;
+        font-size: 2rem;
+    }
+
+    .back {
+        height: 1000px;
+        width: 100%;
+    }
+
+    #head {
+        margin: 50% 1%;
+        padding: 0 7%;
+        text-align: center;
+        line-height: 1;
+        
+        
+    }
+    #rows {
+        text-align: center;
+    }
+
+    .image {
+
+        width: 350px; height: 350px; float: none; margin-right: 2%;
+    }
+
+
+}
